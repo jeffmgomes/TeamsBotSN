@@ -10,8 +10,8 @@ A Microsoft Teams bot to connect with ServiceNow.
   - Select Generic OAuth 2 provider.
   - Use the Client ID created by ServiceNow in step 2.
   - Use the Client Secret created by ServiceNow in step 2.
-  - Authorization URL is https://<ServiceNowInstance>/oauth_auth.do
-  - Token URL is https://<ServiceNowInstance>/oauth_token.do
+  - Authorization URL is https://`<ServiceNowInstance>`/oauth_auth.do
+  - Token URL is https://`<ServiceNowInstance>`/oauth_token.do
   - Refresh URL is the same as Token URL
 - Rename the .env-example file to .env
 - Update the .env file
