@@ -9,7 +9,7 @@ const port = 3333
 // Import botbuilder
 const { BotFrameworkAdapter, UserState, MemoryStorage } = require('botbuilder');
 // Import my messaging extenstion
-const { MessagingExtension } = require('./bots/messagingExtension');
+const { MessagingExtension } = require('./src/bots/messagingExtension');
 
 // Create adapter
 const adapter = new BotFrameworkAdapter({

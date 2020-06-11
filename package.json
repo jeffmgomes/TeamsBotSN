@@ -4,7 +4,7 @@
   "description": "Teams Bot linked with ServiceNow",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node app.js"
   },
   "author": "Jefferson Gomes",
   "license": "ISC",
